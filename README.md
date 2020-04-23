@@ -9,6 +9,10 @@ La funzione ActiveLidarTOC() facilita la selezione del lidar d'interesse quando 
 La procedura vive sino alla chiusura del progetto, poi menu e funzioni vengono scaricate.
 Se viene modificata la procudera nella console di Python le funzionalità di menu si aggiornano al primo run.
 
+Leggere il codice e modificare le variabili in base allo shapefile di inquadramento e ai file LIDAR disponibili. Testato con file dtm ascii (.asc). Scritto e testato per file LIDAR Regione Toscana e Ministero dell'Ambiente.
+
 ---- 
 
 Python code to be loaded via Qgis Python Console inside Project. Create a temporary custom menu with a function (LoadLidarFromShape_v4) useful for loading and displaying from 1 to n LIDAR files selected via frame shapefile and loaded from paths stored on disk. The mosaic image technique is emulated on the fly without creating additional files. The ActiveLidarTOC () function facilitates the selection of the lidar of interest when operations have to be performed on single LIDAR section. The procedure continues until the project is closed, then menus and functions are unistalled. If the procudera is changed in the Python console, the menu features update on the first run.
+
+Read the code and modify the variables according to the frame shapefile and the available LIDAR files. Tested with ascii dtm file (.asc). Written and tested for LIDAR files from Regione Toscana and Ministero dell'Ambiente.
