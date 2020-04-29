@@ -55,14 +55,12 @@ def LoadLidarFromShape_v4():
     # assegno il fattore di scala (diverso per il set del ministero dell'ambiente)
     try:
         if my_name_layer == 'QU_Griglia_1x1_path':
-            my_ref_layer = 1
             my_CRS_system = 4326
             my_ZFactorSet = 0.00001  # fattore di scala specifico per dataset del Ministero dell'Ambiente
             my_feature_fld = 'tavola'
             my_path_fld = 'path'
             a=1
         elif my_name_layer == 'RT_LIDAR_PATH':
-            my_ref_layer = 2
             my_ZFactorSet = 1
             my_CRS_system = 3003
             my_feature_fld = 'DTMNAME'
